@@ -160,8 +160,6 @@ def main():
                 + [example for example_tuple in data[4] for example in example_tuple]
             )
             bar()
-            if y == 3:
-                break
 
     filename = f"jlpt_n{jlpt}_grammar.csv"
     if os.path.exists(filename):

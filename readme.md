@@ -32,7 +32,8 @@ Each level can be scrapped, it will create a different output csv
 ## How to transfer in Anki ?
 1) Import the [Anki package](GrammarWithExample.apkg) in Anki (File->Import) so that the new Card Type "Grammaire avec exemples" is created
 2) You can already delete this deck
-3) Import the csv file output by the python that way
+3) You need to copy the downloaded images (in the folder `images` ), to the folder `collection.media` which is at the root of Anki, in Windows, it should be located in `C:\Users\{USER}\AppData\Roaming\Anki2\{AnkiUser}\collection.media\`
+4) Import the csv file output by the python that way
     ![alt text](readmeImages/image.png)
     Make sure to select "virgule" and the HTML box
     ![alt text](readmeImages/image2.png)
